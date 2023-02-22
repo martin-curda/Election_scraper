@@ -26,7 +26,9 @@ $ pip3 install -r requirements.txt # instalace knihoven
 Spouštění programu:
 
 Program se spouští pomocí dvou argumentů:
+
 1.) URL požadovaného okresu z webu volby.cz
+
 2.) názvu .csv souboru, do kterého se uloží výsledky
 
 python election_results.py 'URL adresa volebních výsledků' 'název csv souboru pro uložení výsledků'
@@ -39,7 +41,9 @@ Ukázka projektu:
 Výsledky hlasování pro okres Brno-venkov
 
 Použité argumenty:
+
 1.) https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203
+
 2.) election_results.csv
 
 Spuštění programu v terminálu:
@@ -59,5 +63,7 @@ Code,Location,Registered,Envelopers,Valid... 582794,Babice nad Svitavou,925,660,
 V případě špatně zadaných argumentů program vypíše:
 
 a. Program potřebuje 2 argumenty! URL a složku csv. Ukončuji program.
+
 b. První argument nebyl správně zadán. Ukončuji program.
+
 c. Druhý argument nebyl správně zadán. Ukončuji program.
