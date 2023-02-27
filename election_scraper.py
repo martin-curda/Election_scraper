@@ -90,8 +90,8 @@ def data(code_text, cities, parties_text):
 
 def main():
     arguments()
-    url = "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6203"
-    csv_file = "election_results.csv"
+    url = sys.argv[1]
+    csv_file = sys.argv[2]
     soup = response_server(url)
     cities = location(soup)
     code_text = codes(soup)
