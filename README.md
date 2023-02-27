@@ -52,8 +52,12 @@ Code,Location,Registered,Envelopers,Valid... 582794,Babice nad Svitavou,925,660,
 
 #### V případě špatně zadaných argumentů program vypíše:
 
->a. Program potřebuje 2 argumenty! URL a složku csv. Ukončuji program.
+> Program potřebuje 2 argumenty! URL a složku csv. Ukončuji program.
 
->b. První argument nebyl správně zadán. Ukončuji program.
+nebo
 
->c. Druhý argument nebyl správně zadán. Ukončuji program.
+> První argument nebyl správně zadán. Ukončuji program.
+
+nebo
+
+> Druhý argument nebyl správně zadán. Ukončuji program.
